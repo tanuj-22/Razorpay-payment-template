@@ -1,0 +1,58 @@
+{
+    "entity": "event",
+    "account_id": "acc_HkLfVH1wZl2p5M",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_HkQPPd8A8kZVkJ",
+                "entity": "payment",
+                "amount": 49900,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_HkQP0JgJH2eSRB",
+                "invoice_id": null,
+                "international": false,
+                "method": "card",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Thank you for you contribution",
+                "card_id": "card_HkQPPg1uARNNqt",
+                "card": {
+                    "id": "card_HkQPPg1uARNNqt",
+                    "entity": "card",
+                    "name": "TJ",
+                    "last4": "1111",
+                    "network": "Visa",
+                    "type": "debit",
+                    "issuer": null,
+                    "international": false,
+                    "emi": false,
+                    "sub_type": "consumer"
+                },
+                "bank": null,
+                "wallet": null,
+                "vpa": null,
+                "email": "pancholi.tanuj8@gmail.com",
+                "contact": "+918855922769",
+                "notes": [],
+                "fee": 998,
+                "tax": 0,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "auth_code": "669164"
+                },
+                "created_at": 1628801521
+            }
+        }
+    },
+    "created_at": 1628801524
+}
